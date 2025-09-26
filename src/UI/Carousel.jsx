@@ -132,7 +132,7 @@ export default function Carousel({
         {items.map((_, idx) => (
           <button
             key={idx}
-            className={`w-3 h-3 rounded-full ${
+            className={`w-2 h-2 rounded-full ${
               currentIndex === idx ? "bg-neutral" : "bg-base-300"
             }`}
             onClick={() => setCurrentIndex(idx)}

@@ -1,36 +1,36 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useMotionValue } from "framer-motion";
-import teknikSipil from "../assets/teknik-sipil.jpg";
-import akuntansi from "../assets/akuntansi.jpg";
-import teknikElektro from "../assets/teknik-elektro.jpg";
-import teknikKimia from "../assets/teknik-kimia.jpg";
-import pimpinanPoliteknik from "../assets/pimpinan-politeknik.jpg";
+import teknikSipil from "../assets/teknik_sipil.png";
+import akuntansi from "../assets/akuntansi.png";
+import teknikElektro from "../assets/teknik_elektro.png";
+import teknikKimia from "../assets/teknik_kimia.png";
+import pimpinanPoliteknik from "../assets/pimpinan_politeknik.png";
 
 const DEFAULT_ITEMS = [
   {
     id: 1,
     title: "pimpinan politeknik  ",
-    src: {teknikSipil}
+    src: teknikSipil
   },
   {
     id: 2,
     title: "Teknik Sipil",
-    src: {akuntansi}
+    src: akuntansi
   },
   {
     id: 3,
     title: "Teknik ELektro",
-    src: {teknikElektro}
+    src: teknikElektro
   },
   {
     id: 4,
     title: "Akuntansi",
-    src: {teknikKimia}
+    src: teknikKimia
   },
   {
     id: 5,
     title: "Teknik Kimia",
-    src: {pimpinanPoliteknik}
+    src: pimpinanPoliteknik
   },
 ];
 

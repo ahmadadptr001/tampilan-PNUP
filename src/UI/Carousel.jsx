@@ -1,32 +1,36 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useMotionValue } from "framer-motion";
-
+import teknikSipil from "../assets/teknik-sipil.jpg";
+import akuntansi from "../assets/akuntansi.jpg";
+import teknikElektro from "../assets/teknik-elektro.jpg";
+import teknikKimia from "../assets/teknik-kimia.jpg";
+import pimpinanPoliteknik from "../assets/pimpinan-politeknik.jpg";
 
 const DEFAULT_ITEMS = [
   {
     id: 1,
     title: "pimpinan politeknik  ",
-    src: "https://www.poliupg.ac.id/uploads/slideshow/Pimpinan_Politeknik_Negeri_Ujung_Pandang_gambar_slideshow_2025_09_24_10_19_09.png",
+    src: {teknikSipil}
   },
   {
     id: 2,
     title: "Teknik Sipil",
-    src: "https://www.poliupg.ac.id/uploads/slideshow/Teknik_Sipil_gambar_slideshow_2025_09_24_10_21_00.png",
+    src: {akuntansi}
   },
   {
     id: 3,
     title: "Teknik ELektro",
-    src: "https://www.poliupg.ac.id/uploads/slideshow/Teknik_Eletro_gambar_slideshow_2025_09_24_10_21_56.png",
+    src: {teknikElektro}
   },
   {
     id: 4,
     title: "Akuntansi",
-    src: "https://www.poliupg.ac.id/uploads/slideshow/Akuntansi_gambar_slideshow_2025_09_24_10_25_41.png",
+    src: {teknikKimia}
   },
   {
     id: 5,
     title: "Teknik Kimia",
-    src: "https://www.poliupg.ac.id/uploads/slideshow/Teknik_Kimia_gambar_slideshow_2025_09_24_10_23_37.png",
+    src: {pimpinanPoliteknik}
   },
 ];
 

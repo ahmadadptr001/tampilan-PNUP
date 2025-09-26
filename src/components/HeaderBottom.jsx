@@ -451,7 +451,7 @@ export default function HeaderBottom() {
       {/* navbar bawah ukuran:md */}
       <details className="shadow-sm/20 collapse pt-2 xl:hidden bg-base-100 xl:mt-5 pb-5 rounded-none">
         <summary className="collapse-title p-0 font-light">
-          <div className="flex items-center justify-center gap-1">
+          <div className="flex items-center justify-end pe-3 gap-1">
             <i className="fas fa-bars text-2xl"></i>
           </div>
         </summary>
